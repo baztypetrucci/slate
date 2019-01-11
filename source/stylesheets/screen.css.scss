@@ -75,7 +75,8 @@ html, body {
   .logo {
     display: block;
     max-width: 100%;
-    margin-bottom: $logo-margin;
+    width:80px;
+    margin:10px auto 0;
   }
 
   &>.search {
@@ -612,4 +613,11 @@ html, body {
 
 .highlight, .highlight .w {
   background-color: $code-bg;
+}
+
+.tenor-gif-embed{
+  margin-right:50%;
+  width:auto !important;
+  margin-top:15px;
+  margin-bottom:15px;
 }
